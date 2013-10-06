@@ -10,7 +10,7 @@ body {
 	background-repeat: repeat;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	padding: 10px;
+	margin-left: 10px;
 }
 
 .content-box {
@@ -22,8 +22,7 @@ body {
 
 .pull-left {
 	float: left;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 10px;
 }
 
 .pull-right {
@@ -36,11 +35,13 @@ body {
 	font-family: 'Boogaloo';
 	font-size: 36px;
 	color: #116189;
-}
+ 	padding-top: 10px;
+ }
 
 .motto {
 	font-style: italic;
 	font-size: 120%;
+	margin-top: 10px;
 }
 
 nav {
@@ -49,6 +50,8 @@ nav {
 
 nav ul {
 	background-color: #D74710;
+	border-radius: 5px;
+	margin: 10px;
 }
 
 nav li {
@@ -72,6 +75,8 @@ nav a:hover {
 }
 
 .footer {
-	border-style: thin;
-	border-top:thick double #555;
+	border-top: 1px solid #555;
+	font-style: italic;
+	font-size: 80%;
+	margin: 10px;
 }
