@@ -10,9 +10,11 @@ body {
 	background-repeat: repeat;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	margin-left: 10px;
 }
 
+p {
+	margin: 10px;
+}
 .content-box {
 	width: 80%;
 	background-color: #FFF;
@@ -79,4 +81,11 @@ nav a:hover {
 	font-style: italic;
 	font-size: 80%;
 	margin: 10px;
+	padding-bottom: 20px;
+}
+
+.person {
+	font-family: 'Boogaloo';
+	font-size: 25px;
+	color: #116189;
 }
